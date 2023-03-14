@@ -31,9 +31,7 @@ public class RegistrationTests extends TestBase{
 
 //        1. open login/registration form
         app.getUser().openLoginRegistrationForm();
-//        WebElement loginBtn = wd.findElement(By.xpath("//a[@href='/login']"));
-//        loginBtn.click();
-//        2. fill login/registration form
+//       
         int i = (int)(System.currentTimeMillis() / 1000) % 3600;
         String email = "name" + i + "@mail.com";
         String password = "$Abcd1234";
