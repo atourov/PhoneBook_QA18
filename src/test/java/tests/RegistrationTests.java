@@ -31,7 +31,7 @@ public class RegistrationTests extends TestBase{
 
 //        1. open login/registration form
         app.getUser().openLoginRegistrationForm();
-//       
+//
         int i = (int)(System.currentTimeMillis() / 1000) % 3600;
         String email = "name" + i + "@mail.com";
         String password = "$Abcd1234";
