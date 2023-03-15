@@ -52,7 +52,7 @@ public class RegistrationTests extends TestBase{
 //        pause(5);
 
 //        4. assert
-//        Assert.assertTrue(wd.findElement(By.xpath("//a[text()='ADD']")).getText().equals("ADD"));
+    //        Assert.assertTrue(wd.findElement(By.xpath("//a[text()='ADD']")).getText().equals("ADD"));
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//a[text()='ADD']")));
     }
 
